@@ -1,0 +1,17 @@
+klase: Car
+
+parametrai:
+    - ijungta: true/false
+    - bake: 5       (litrai)
+    - ryja: 2.5     (litrai/100 km)
+    - rida: 0
+
+car.turnOn()
+car.drive(20)
+car.drive(20)
+car.drive(20)
+car.drive(20)
+car.drive(20)
+car.drive(90)
+car.drive(100)  // varyklis issijungia, rodo klaida ir rida pasipildo proporcingai nuvaziuotai kelio daliai
+car.turnOff()
